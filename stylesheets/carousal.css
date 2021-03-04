@@ -1,0 +1,28 @@
+.item1{
+    position: absolute;
+    top: 34%; 
+    left: 23%;
+    transition: ease-in-out 2s;
+    color: white;
+ 
+}
+.item1 h1{
+    font-weight: 900;
+    font-size: 7rem;
+}
+#item3{
+    position: absolute;
+    top: 30%;
+    width: 45%;
+    height: 45%;
+    right: 0;
+    font-size: 3rem;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.3);
+    transition: ease-in 1s;
+}
+#item3 h1{
+    padding: 20px;
+    font-weight: 400;
+    font-size: 4rem;
+}
